@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", serif;
+    font-weight: 700;
+}
+body{
+    background-color: #ffffff;
+}
+.interface{
+    max-width: 1180px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+
+
+header{
+    padding: 40px, 4%;
+    background-color: rgb(184, 8, 8);
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+header a{
+    color: #e6e4e4;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: #ffffff;
+    transform: scale(1.05);
+}
+header a img{
+    height: 150px;
+}
+
+header nav ul{
+    list-style-type: none;
+    font-size: 20px;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0% 30px;
+}
+
+section.topo-site{
+    padding: 40px, 4%;
+    margin: 88px;
+}
+
+section.topo-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.topo-site h1{
+    font-size: 50px;
+    line-height: 120px;
+    color: rgb(3, 61, 3);
+}
+.topo-site p{
+    font-size: 18px;
+    color: rgb(3, 61, 3);
+}
+
+.topo-site img{
+    height: 400px;
+}
+
+footer {
+    background-color: red;
+}
