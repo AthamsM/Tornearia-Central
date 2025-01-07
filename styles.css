@@ -5,17 +5,23 @@
     font-family: "Ubuntu", serif;
     font-weight: 700;
 }
+
 body{
     background-color: #ffffff;
 }
+
 .interface{
     max-width: 1180px;
     margin: auto;
 }
+
 .flex{
     display: flex;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 
 header{
     padding: 40px, 4%;
@@ -76,6 +82,39 @@ section.topo-site .flex{
     height: 400px;
 }
 
-footer {
-    background-color: red;
+section .servicos{
+    padding: 40px, 4%;
+    margin: 88px;
+}
+section.servicos .interface h1{
+    text-align: center;
+    font-size: 38px;
+    color: rgb(3, 61, 3);
+    line-height: 120px;
+}
+ section.servicos .flex{
+    gap: 30px;
+}
+.servicos .servico{
+    padding: 20px;
+    border-radius: 15px;
+    transition: .2s;
+}
+
+.servicos .servico:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 8px rgba(201, 199, 199, 0.281);
+}
+.servicos .servico i{
+    font-size: 70px;
+    margin-bottom: 80px;
+}
+
+.servicos .servico h3{
+    font-size: 22px;
+    margin:15px 0;
+}
+.servicos .servico p{
+    font-size: 16px;
+    margin: 10px 0;
 }
