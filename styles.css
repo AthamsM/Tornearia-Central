@@ -74,7 +74,7 @@ section.topo-site .flex{
     color: rgb(3, 61, 3);
 }
 .topo-site p{
-    font-size: 18px;
+    font-size: 22px;
     color: rgb(3, 61, 3);
 }
 
@@ -86,7 +86,7 @@ section .servicos{
     padding: 40px, 4%;
     margin: 88px;
 }
-section.servicos .interface h1{
+section.servicos h1{
     text-align: center;
     font-size: 38px;
     color: rgb(3, 61, 3);
@@ -117,4 +117,39 @@ section.servicos .interface h1{
 .servicos .servico p{
     font-size: 16px;
     margin: 10px 0;
+}
+.contatos h1{
+    text-align: center;
+    font-size: 38px;
+    color: rgb(3, 61, 3);
+    line-height: 120px;
+}
+.contatos .contatos-img img{
+    height: 400px;
+}
+.contatos .flex{
+    align-items: center;
+    gap: 80px;
+}
+.contatos .contatos-text p{
+    font-size: 22px;
+    padding: 20px;
+    text-align: justify;
+}
+.contatos .contatos-text button{
+    padding: 10px 40px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: red;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #ffffff;
+    transition: .2s;
+}
+
+.contatos .contatos-text button:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 8px red;
 }
