@@ -188,7 +188,7 @@ section.footer .flex{
     color: #ffffff;
 }
 .footer_about p{
-    margin:10px 0px;
+    margin-bottom: 10px;
 }
 .footer_about .icons a{
     font-size: 24px;
