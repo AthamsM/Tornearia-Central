@@ -83,7 +83,7 @@ section.topo-site .flex{
 }
 
 section .servicos{
-    padding: 40px, 4%;
+    padding: 30px, 4%;
     margin: 88px;
 }
 section.servicos h1{
@@ -135,13 +135,14 @@ section.servicos h1{
     font-size: 22px;
     padding: 20px;
     text-align: justify;
+    color: rgb(3, 61, 3);
 }
 .contatos .contatos-text button{
     padding: 10px 40px;
     margin: 20px;
     font-size: 18px;
     font-weight: 400;
-    background-color: red;
+    background-color: rgb(184, 8, 8);
     border: 0;
     border-radius: 15px;
     cursor: pointer;
@@ -151,5 +152,46 @@ section.servicos h1{
 
 .contatos .contatos-text button:hover{
     transform: scale(1.02);
-    box-shadow: 0 0 8px red;
+    box-shadow: 0 0 8px rgb(184, 8, 8);
 }
+
+footer{
+    padding: 40px;
+    background-color: rgb(184, 8, 8);
+    margin-top: 20px;
+}
+
+section.footer .flex{
+    justify-content: space-between ;
+}
+
+.footer_info .endereco{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+.footer_info .endereco i{
+    font-size: 24px;
+}
+.footer_info .numero{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+}
+.footer_info .numero i{
+    font-size: 24px;
+}
+.footer_about{
+    color: #ffffff;
+}
+.footer_about p{
+    margin:10px 0px;
+}
+.footer_about .icons{
+    font-size: 24px;
+    cursor: pointer;
+}
+
