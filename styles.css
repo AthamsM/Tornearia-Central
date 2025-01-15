@@ -190,8 +190,9 @@ section.footer .flex{
 .footer_about p{
     margin:10px 0px;
 }
-.footer_about .icons{
+.footer_about .icons a{
     font-size: 24px;
     cursor: pointer;
+    color: #ffffff;
 }
 
