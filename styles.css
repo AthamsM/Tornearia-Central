@@ -80,6 +80,7 @@ section.topo-site .flex{
 
 .topo-site img{
     height: 400px;
+    border-radius: 20%;
 }
 
 section .servicos{
