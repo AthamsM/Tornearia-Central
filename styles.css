@@ -241,6 +241,9 @@ section.footer .flex{
         font-size: 36px;
         text-align: justify;
     }
+    .contatos .flex{
+        gap: 0;
+    }
     
     section.contatos h1{
         font-size: 68px;
