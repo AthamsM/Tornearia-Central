@@ -222,11 +222,10 @@ section.footer .flex{
         font-size: 36px;
     }
     .servicos .flex{
-        overflow-x: auto;
+        overflow-x: scroll;
+        scrollbar-color: black lightblue;
     }
-    .servicos::-webkit-scrollbar{
-        width: 0;
-    }
+
     .servicos .servico{
         margin: 28px;
         min-width: 900px;
@@ -234,7 +233,6 @@ section.footer .flex{
 
     section.servicos h1 {
         font-size: 68px;
-        position: ;
     }
     .servicos .servico h3{
         font-size: 46px;
