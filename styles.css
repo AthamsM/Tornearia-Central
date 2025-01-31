@@ -221,7 +221,7 @@ section.footer .flex{
     .topo-site p {
         font-size: 36px;
     }
-    .servicos{
+    .servicos .flex{
         overflow-x: auto;
     }
     .servicos::-webkit-scrollbar{
@@ -234,6 +234,7 @@ section.footer .flex{
 
     section.servicos h1 {
         font-size: 68px;
+        position: ;
     }
     .servicos .servico h3{
         font-size: 46px;
